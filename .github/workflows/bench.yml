@@ -26,7 +26,8 @@ jobs:
       - name: Check out the SDK.
         uses: actions/checkout@v2
         with:
-          repository: 'llvm-mos/llvm-mos-sdk'
+          repository: 'mrk-its/llvm-mos-sdk'
+          ref: 'abort_exit'
           path: 'llvm-mos-sdk'
       - name: Build the SDK.
         run: |
