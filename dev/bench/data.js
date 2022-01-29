@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1643357136201,
+  "lastUpdate": 1643443544258,
   "repoUrl": "",
   "entries": {
     "Benchmark -Os": [
@@ -8971,6 +8971,86 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/mrk-its/llvm-test-suite/commit/95d9386f7bc0b72138aa16347b293ce78cfdcce4"
         },
         "date": 1643357134422,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "6502-compilers/bench/ccgame/game_01_start",
+            "value": 3839100,
+            "unit": "cycles/iter",
+            "extra": "iterations: 1\ncpu: 3839100 cycles\nthreads: 1"
+          },
+          {
+            "name": "6502-compilers/bench/ccgame/game_modern_optims",
+            "value": 813978,
+            "unit": "cycles/iter",
+            "extra": "iterations: 1\ncpu: 813978 cycles\nthreads: 1"
+          },
+          {
+            "name": "6502-compilers/bench/ccgame/game_modern_optims_structarray",
+            "value": 2533763,
+            "unit": "cycles/iter",
+            "extra": "iterations: 1\ncpu: 2533763 cycles\nthreads: 1"
+          },
+          {
+            "name": "6502-compilers/bench/coroutine",
+            "value": 7373,
+            "unit": "cycles/iter",
+            "extra": "iterations: 1\ncpu: 7373 cycles\nthreads: 1"
+          },
+          {
+            "name": "6502-compilers/bench/memcpy",
+            "value": 16581,
+            "unit": "cycles/iter",
+            "extra": "iterations: 1\ncpu: 16581 cycles\nthreads: 1"
+          },
+          {
+            "name": "6502-compilers/bench/rpg",
+            "value": 158,
+            "unit": "cycles/iter",
+            "extra": "iterations: 1\ncpu: 158 cycles\nthreads: 1"
+          },
+          {
+            "name": "6502-compilers/bench/unzip",
+            "value": 39292,
+            "unit": "cycles/iter",
+            "extra": "iterations: 1\ncpu: 39292 cycles\nthreads: 1"
+          },
+          {
+            "name": "Dhrystone",
+            "value": 292506718,
+            "unit": "cycles/iter",
+            "extra": "iterations: 1\ncpu: 292506718 cycles\nthreads: 1"
+          },
+          {
+            "name": "BYTE Sieve",
+            "value": 21447338,
+            "unit": "cycles/iter",
+            "extra": "iterations: 1\ncpu: 21447338 cycles\nthreads: 1"
+          },
+          {
+            "name": "CoreMark",
+            "value": 126,
+            "unit": "sec/iter",
+            "extra": "iterations: 10\ncpu: 126 sec\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Mariusz Kryński",
+            "username": "Mariusz Kryński"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "GitHub"
+          },
+          "id": "95d9386f7bc0b72138aa16347b293ce78cfdcce4",
+          "message": "Update test.yml",
+          "timestamp": "2022-01-10T18:56:55Z",
+          "url": "https://github.com/mrk-its/llvm-test-suite/commit/95d9386f7bc0b72138aa16347b293ce78cfdcce4"
+        },
+        "date": 1643443542476,
         "tool": "googlecpp",
         "benches": [
           {
